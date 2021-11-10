@@ -1,0 +1,171 @@
+    1  lsblsk
+    2  lsbsk
+    3  lbslk
+    4  man lsbk
+    5  lsblk
+    6  poweroff
+    7  lsblk
+    8  sudo fdisk
+    9  ls
+   10  fdisk
+   11  sudo fdisk
+   12  fdisk --help
+   13  clear
+   14  fdisk
+   15  fdisk p
+   16  fdisk sdb
+   17  fdisk \sdb
+   18  fdisk /sdb
+   19  lsblk
+   20  sudo fdisk -p
+   21  sudo fdisk --help
+   22  sudo fdisk -l
+   23  sudo fdisk -p
+   24  sudo fdisk --p
+   25  sudo fdisk --help
+   26  clear
+   27  sudo fdisk
+   28  fdisk --help
+   29  fdisk -o
+   30  fdisk -l
+   31  sudo fdisk -l
+   32  sudo fdisk /dev/sdb
+   33  pvdisplay
+   34  sudo pvdisplay
+   35  sudo pvcreate /dev/sdb1
+   36  sudo pvdisplay
+   37  sudo vgextend cl /dev/sdb1
+   38  pvdisplay
+   39  sudo pvdisplay
+   40  sudo pvs
+   41  sudo vps
+   42  sudo lvcreate -n new_var -L 3G cl
+   43  vjs
+   44  lvls
+   45  sudo vys
+   46  sudo vgs
+   47  man mount
+   48  man mkfs
+   49  q
+   50  sudo mkfs -t ext4 /dev/cl/new_var
+   51  mkdir /mnt/new_var
+   52  sudo mkdir /mnt/new_var
+   53  sudo mount /dev/cl/new_var /mnt/new_var
+   54  ls -LZ
+   55  ls -lZ
+   56  ls -lZ /
+   57  ls -LZ /
+   58  ls -lZ /
+   59  man cp
+   60  sudo systemctl rescue
+   61  ip addr
+   62  clear
+   63  ifconfig
+   64  ip addr add 192.168.56.115/24 dev enp0s8
+   65  sudo ip addr add 192.168.56.115/24 dev enp0s8
+   66  sudo ip addr set enp0s8 up
+   67  ip address help
+   68  clear
+   69  ifup enp0s8
+   70  sudo ifup enp0s8
+   71  ifconfig
+   72  sudo ifup enp0s3
+   73  sudo ifup enp0s8
+   74  man ip
+   75  man ip addr
+   76  man ip addr | grep set
+   77  ifup enp0s8
+   78  sudo ifup enp0s8
+   79  ifconfig
+   80  ifup enp0s8
+   81  sudo ifup enp0s8
+   82  ping 192.168.56.1
+   83  clea
+   84  clear
+   85  sudo systemctl status sshd
+   86  sudo vi /etc/ssh/sshd_config
+   87  sudo dnf install policy-core-utils
+   88  sudo dnf provides semanage
+   89  semanage
+   90  sudo dnf install policycoreutils
+   91  semanage
+   92  sudo dnf provides semanage
+   93  sudo dnf install policycoreutils-python-utils
+   94  sudo vi /etc/ssh/sshd_config
+   95  sudo semanage port -a -t ssh_port_t -p tcp 22022
+   96  sudo semanage port -l | grep ssh
+   97  sudo firewall-cmd --add-port 22022/tcp --permanent
+   98  sudo firewall-cmd --add-port 22022/tcp
+   99  sudo firewall-cmd --reload
+  100  sudo vi /etc/ssh/sshd_config
+  101  sudo systemctl restart sshd
+  102  sudo firewall-cmd --add-port 22022/tcp
+  103  sudo systemctl restart sshd
+  104  systemctl status sshd.service
+  105  sudo systemctl restart sshd
+  106  journalctl -xe
+  107  sudo vi /etc/ssh/sshd_config
+  108  sudo systemctl restart sshd
+  109  sudo vi /etc/ssh/sshd_config
+  110  sudo systemctl restart sshd
+  111  man sshd 
+  112  man sshd  | grep users
+  113  man sshd  | grep Allow
+  114  sudo vi /etc/ssh/sshd_config
+  115  man sshd  | grep Allow
+  116  sudo systemctl restart sshd
+  117  sudo addUser Fernando
+  118  sudo adduser Fernando
+  119  sudo passwd Fernando
+  120  sudo systemctl status httpd
+  121  sudo dnf install httpd
+  122  sudo systemctl status httpd
+  123  sudo systemctl enable httpd
+  124  sudo systemctl start httpd
+  125  sudo systemctl status httpd
+  126  man rsync
+  127  man rsync | grep port
+  128  man rsync | grep port | more
+  129  man rsync | grep -p | more
+  130  man rsync | grep "-p" | more
+  131  clear
+  132  sudo dnf install git
+  133  clear
+  134  history
+  135  q
+  136  ls
+  137  rm -r -
+  138  rm -r .
+  139  rm -r 
+  140  rm -r *.*
+  141  clear
+  142  git init examen
+  143  cd examen
+  144  ls
+  145  history > commited.txt
+  146  ls
+  147  git add .
+  148  git commit -m "Salida del history"
+  149  git config --global --edit
+  150  git commit -m "Usuario y Correo corregido"
+  151  git status
+  152  ls
+  153  history
+  154  history | more
+  155  git init moisestellezfrancisco
+  156  echo "Sry, no lei que habia que iniciar el repo con mi nombre"
+  157  cd moisestellezfrancisco
+  158  history > historial.txt
+  159  git add .
+  160  git commit -m "Historial añadido"
+  161  git config --global user.name moisestellezfrancisco
+  162  git config --global user.email moisestellezfrancisco@gmail.com
+  163* 
+  164  git commit -m "Historial añadido"
+  165  clear
+  166  cd ..
+  167  rm -r moisestellezfrancisco
+  168  s
+  169  git init moisestellezfrancisco
+  170  cd moisestellezfrancisco
+  171  history > history.txt
